@@ -4,20 +4,20 @@ import { useEffect, useRef } from "react";
 import ScrollTop from "../../../common/ScrollTop";
 import FooterOne from "../../../layouts/footers/FooterOne";
 import HeaderOne from "../../../layouts/headers/HeaderOne";
-import ChooseHomeTwo from "../home-2/ChooseHomeTwo";
+// import ChooseHomeTwo from "../home-2/ChooseHomeTwo";
 import CoursesHomeTwo from "../home-2/CoursesHomeTwo";
 import HeroHomeTwo from "../home-2/HeroHomeTwo";
 import TopCategoryHomeTwo from "../home-2/TopCategoryHomeTwo";
 import InstagramHomeThree from "../home-3/InstagramHomeThree";
 
-import BlogHomeOne from "./BlogHomeOne";
-import BrandsHomeOne from "./BrandsHomeOne";
+// import BlogHomeOne from "./BlogHomeOne";
+// import BrandsHomeOne from "./BrandsHomeOne";
 import ChooseHomeOne from "./ChooseHomeOne";
 
 import HeroHomeOne from "./HeroHomeOne";
 
-import PopularCoursesHomeOne from "./PopularCoursesHomeOne";
-import ImportantCtaArea from "./ImportantCtaArea";
+// import PopularCoursesHomeOne from "./PopularCoursesHomeOne";
+// import ImportantCtaArea from "./ImportantCtaArea";
 import Performing_art_structure from "./Performing_art_structure";
 import { useScrollStore } from "../../store/storeScroll";
 

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import menu_data from "../../data/menu_data";
-import React, { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
+// import menu_data from "../../data/menu_data";
+import  { useEffect, useState } from "react";
 import { useScrollStore } from "../../components/store/storeScroll";
 
 const NavMenu = () => {
@@ -26,9 +26,9 @@ const NavMenu = () => {
 		}
 	};
 
-	const scrollTop = () => {
-		window.scrollTo({ top: 0, behavior: "smooth" });
-	};
+	// const scrollTop = () => {
+	// 	window.scrollTo({ top: 0, behavior: "smooth" });
+	// };
 
   // const slugify = (text: string) => 
   //   text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
