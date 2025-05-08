@@ -30,7 +30,7 @@ const HeroHomeTwo = () => {
 
                             </p>
                             <div className="hero-button">
-                                <Link to="/courses" className="theme-btn wow fadeInUp" data-wow-delay=".3s">Learn More</Link>
+                                {/* <Link to="/courses" className="theme-btn wow fadeInUp" data-wow-delay=".3s">Learn More</Link> */}
                                 {/* <span className="button-text wow fadeInUp" data-wow-delay=".5s">
                                     <a  onClick={() => setIsVideoOpen(true)}
                                         style={{ cursor: "pointer" }} 

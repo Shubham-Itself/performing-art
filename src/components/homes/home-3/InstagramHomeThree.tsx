@@ -3,7 +3,7 @@ import { Autoplay } from "swiper/modules";
 
 const InstagramHomeThree = () => {
   return (
-    <div className="instagram-section fix py-[100px]">
+    <div className="instagram-section fix py-[100px] !pb-[0px]">
       <div className="section-title mb-[7px] px-[100px]">
         <h6 className="wow fadeInUp">Student Life @ IICS</h6>
       </div>

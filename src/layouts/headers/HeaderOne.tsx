@@ -15,7 +15,7 @@ const HeaderOne = () => {
     <>
       <MarqueeOne />
 
-      <div>
+      <div className="hidden">
         <header
           id="header-stick"
           className={`header-1 ${

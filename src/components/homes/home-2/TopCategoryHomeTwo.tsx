@@ -16,13 +16,13 @@ const TopCategoryHomeTwo = () => {
                     </h6>
                    
                 </div>
-                <div className="top-category-wrapper-2 mt-4 mt-md-0">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-6">
+                <div className="top-category-wrapper-2 mt-4 mt-md-0 !bg-transparent">
+                    <div className="row ">
+                        <div className="">
                             <div className="top-category-left-items mb-5 mb-lg-0">
-                                <div className="row g-0">
-                                    <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                                        <div className=" top-category-box bg-1 border-left-none border-top-none h-full overflow-hidden relative">
+                                <div className="row gap-y-[1.5rem] justify-center">
+                                    <div className="!w-[250px] wow fadeInUp" data-wow-delay=".2s">
+                                        <div className=" top-category-box !border-none bg-1 border-left-none border-top-none h-full overflow-hidden relative">
                                         <div className="absolute inset-0 bg-black/60  pointer-events-none" />
                                             <Link to="#" className="relative z-20">
                                                 <div className="icon hover:!text-">
@@ -37,8 +37,8 @@ const TopCategoryHomeTwo = () => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="top-category-box bg-2 border-left-none border-top-none h-full overflow-hidden relative">
+                                    <div className="!w-[250px] wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="top-category-box !border-none bg-2 border-left-none border-top-none h-full overflow-hidden relative">
                                         <div className="absolute inset-0 bg-black/60  pointer-events-none" />
 
                                             <Link to="#" className="relative z-20">
@@ -52,8 +52,8 @@ const TopCategoryHomeTwo = () => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                                        <div className="top-category-box bg-3 border-left-none border-bottom-none border-top-none overflow-hidden relative">
+                                    <div className="!w-[250px] wow fadeInUp" data-wow-delay=".6s">
+                                        <div className="top-category-box !border-none bg-3 border-left-none border-bottom-none border-top-none overflow-hidden relative">
                                         <div className="absolute inset-0 bg-black/60  pointer-events-none" />
 
                                             <Link to="#" className="relative z-20">
@@ -67,8 +67,23 @@ const TopCategoryHomeTwo = () => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                                        <div className="top-category-box bg-4 border-left-none border-bottom-none border-top-none h-full overflow-hidden relative">
+                                    <div className="!w-[250px] wow fadeInUp" data-wow-delay=".8s">
+                                        <div className="top-category-box !border-none bg-4 border-left-none border-bottom-none border-top-none h-full overflow-hidden relative">
+                                        <div className="absolute inset-0 bg-black/60  pointer-events-none" />
+
+                                            <Link to="#" className="relative z-20">
+                                                <div className="icon">
+                                                <p>4</p>
+                                                </div>
+                                                <div className="content">
+                                                <h6 className="!text-[14px] mb-[15px]">Personal Interview</h6>
+                                                <p className="!text-[12px] leading-[18px]">Attend a personal interview with mentors. Final selection is based on your overall performance across all stages.</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="!w-[250px] wow fadeInUp" data-wow-delay=".8s">
+                                        <div className="top-category-box !border-none bg-4 border-left-none border-bottom-none border-top-none h-full overflow-hidden relative">
                                         <div className="absolute inset-0 bg-black/60  pointer-events-none" />
 
                                             <Link to="#" className="relative z-20">
@@ -85,7 +100,7 @@ const TopCategoryHomeTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6">
+                        {/* <div className="col-xl-4 col-lg-6">
                         <h2 className=" wow fadeInUp mobile:!text-[12px] !text-[25px] mt-[30px] text-center mobile:!text-[18px] mobile:mb-[20px]" data-wow-delay=".3s">
                     The Most Innovative Program in Media <span className="text-[#de4141]">&</span> Entertainment
                     </h2>
@@ -162,7 +177,7 @@ const TopCategoryHomeTwo = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* <div className="category-bottom-title wow fadeInUp" data-wow-delay=".3s">

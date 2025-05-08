@@ -36,7 +36,7 @@ const FooterOne = ({ style_2 }: any) => {
                 <div className="widget-head mb-4">
                   <h3 className="text-lg font-semibold">Campuses</h3>
                 </div>
-                <ul className="contact-info grid grid-cols-2 gap-4 text-sm">
+                <ul className="contact-info grid grid-cols-2 mobile:grid-cols-1 gap-4 text-sm">
                   {[
                     {
                       title: "Delhi Campus",
@@ -60,10 +60,11 @@ const FooterOne = ({ style_2 }: any) => {
                     { title: "Bhubaneshwar", address: "Coming Soon" },
                   ].map((item, idx) => (
                     <li key={idx}>
-                      <span className="font-bold">{item.title}</span><br />
-                      {item.address}<br />
-                      {item.phone && (<><span className="font-semibold">Mobile: </span>{item.phone}<br /></>)}
-                      {item.email && (<><span className="font-semibold">Email: </span>{item.email}</>)}
+                      <span className="font-bold block">{item.title}</span>
+                      <br />
+                      {item.address}<br /> 
+                      {item.phone && (<span className="block"><span className="font-semibold ">Mobile: </span>{item.phone}<br /></span>)}
+                      {item.email && (<span className="block"><span className="font-semibold">Email: </span>{item.email}</span>)}
                     </li>
                   ))}
                 </ul>

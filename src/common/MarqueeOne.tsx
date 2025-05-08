@@ -2,6 +2,7 @@ import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 
 const MarqueeOne = ({ style_2 }: any) => {
@@ -15,7 +16,50 @@ const MarqueeOne = ({ style_2 }: any) => {
         <div className={`mycustom-marque`}>
           <div className="scrolling-wrap">
             <div className="comm justify-between w-full mobile:mb-[10px]">
-              <div className="flex gap-[10px]">
+              <div className="flex gap-[10px] items-center">
+              <Link to="/" className="header-logo">
+                      <img
+                        className="main-logo h-[50px] mobile:h-[42px]"
+                        src="/assets/iics_image/iics_logo_main.webp"
+                        alt="logo-img"
+                        height="40"
+                      />
+                    </Link>
+                {/* <img
+                  src="/assets/iics_image/skill-logo-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                />
+                <img
+                  src="/assets/iics_image/nsdc-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                />
+                <img
+                  src="/assets/iics_image/mesc-logo-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                /> */}
+              </div>
+
+              {/* <div className="flex gap-[20px] items-center">
+               
+              </div> */}
+
+              <div className="flex gap-[20px] items-center mobile:hidden tablet:hidden">
+              {/* <p>Our Legacy</p> */}
+              {/* <p>Associate with us</p> */}
+                <p>info@iicsindia.org</p>
+                <p>+91 959-4949-959</p>
+                <div className="flex gap-[10px] items-center">
+              {/* <Link to="/" className="header-logo">
+                      <img
+                        className="main-logo h-[50px] mobile:h-[42px]"
+                        src="/assets/iics_image/iics_logo_main.webp"
+                        alt="logo-img"
+                        height="40"
+                      />
+                    </Link> */}
                 <img
                   src="/assets/iics_image/skill-logo-small.webp"
                   alt="skill-logo"
@@ -32,27 +76,6 @@ const MarqueeOne = ({ style_2 }: any) => {
                   className="h-[50px] mobile:h-[30px]"
                 />
               </div>
-
-              {/* <div className="flex gap-[20px] items-center">
-               
-              </div> */}
-
-              <div className="flex gap-[20px] items-center mobile:hidden tablet:hidden">
-              <p>Our Legacy</p>
-              <p>Associate with us</p>
-                <p>info@iicsindia.org</p>
-                <p>+91 959-4949-959</p>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faSquareFacebook} className="text-[#1877F2] text-[25px] hover:scale-110 transition-transform" />
-</a>
-
-<a href="https://www.instagram.com/iicsindiaorg/" target="_blank" rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faInstagram} className="text-[#E4405F] text-[25px] hover:scale-110 transition-transform" />
-</a>
-
-<a href="https://youtube.com/@iicsindiaorg?si=3jYkJMvyrO_lO97m" target="_blank" rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faYoutube} className="text-[#FF0000] text-[25px] hover:scale-110 transition-transform" />
-</a>
               </div>
 
               {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Experience Instructors</div>
