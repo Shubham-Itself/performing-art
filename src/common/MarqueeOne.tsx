@@ -1,7 +1,7 @@
-import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
+// import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
+// import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 

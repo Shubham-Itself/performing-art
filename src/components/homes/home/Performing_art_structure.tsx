@@ -235,7 +235,7 @@ const Performing_art_structure = () => {
   
   
     <section>
-      <h3 className="text-xl font-semibold mt-6">Curriculum</h3>
+      <h3 className="text-2xl font-bold mb-4">Course Curriculum</h3>
       <div className="flex flex-wrap gap-4 mt-4">
       <span className="px-4 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium cursor-pointer" onClick={() => setActiveScreen(1)}>Degree</span>
         <span className="px-4 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium cursor-pointer" onClick={() => setActiveScreen(2)}>Certificate</span>
@@ -244,7 +244,7 @@ const Performing_art_structure = () => {
       <div className="space-y-6 mt-4">
        
       <div className="">
-  <h2 className="text-2xl font-bold mb-4">Course Curriculum</h2>
+  {/* <h2 className="text-2xl font-bold mb-4"> Curriculum</h2> */}
   <div className="overflow-x-auto">
     <table className="min-w-full border border-gray-300 mobile:hidden">
       <thead className="bg-gray-100">
