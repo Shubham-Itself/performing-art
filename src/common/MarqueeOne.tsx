@@ -14,9 +14,34 @@ const MarqueeOne = ({ style_2 }: any) => {
     </div>
       <div className="marquee-section style-header">
         <div className={`mycustom-marque`}>
-          <div className="scrolling-wrap">
+          <div className="scrolling-wrap !pl-0 mobile:!pr-[10px] mobile:!items-start mobile:!pb-0 ">
             <div className="comm justify-between w-full mobile:mb-[10px]">
-              <div className="flex gap-[10px] items-center">
+              <div className="flex gap-[10px] mobile:gap-[1px] items-center mobile:flex-col mobile:items-start">
+              <div className="flex gap-[10px] items-center hidden mobile:flex mobile:pl-[8px] ">
+              {/* <Link to="/" className="header-logo">
+                      <img
+                        className="main-logo h-[50px] mobile:h-[42px]"
+                        src="/assets/iics_image/iics_logo_main.webp"
+                        alt="logo-img"
+                        height="40"
+                      />
+                    </Link> */}
+                <img
+                  src="/assets/iics_image/skill-logo-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                />
+                <img
+                  src="/assets/iics_image/nsdc-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                />
+                <img
+                  src="/assets/iics_image/mesc-logo-small.webp"
+                  alt="skill-logo"
+                  className="h-[50px] mobile:h-[30px]"
+                />
+              </div>
               <Link to="/" className="header-logo">
                       <img
                         className="main-logo h-[50px] mobile:h-[42px]"
@@ -46,12 +71,12 @@ const MarqueeOne = ({ style_2 }: any) => {
                
               </div> */}
 
-              <div className="flex gap-[20px] items-center mobile:hidden tablet:hidden">
+              <div className=" gap-[20px] items-center flex marqueSet:flex mobile:flex-col mobile:gap-0 mobile:leading-[20px] mobile:self-start">
               {/* <p>Our Legacy</p> */}
               {/* <p>Associate with us</p> */}
-                <p>info@iicsindia.org</p>
-                <p>+91 959-4949-959</p>
-                <div className="flex gap-[10px] items-center">
+                <p className=" mobile:text-[10px]">info@iicsindia.org</p>
+                <p className=" mobile:text-[10px]">+91 959-4949-959</p>
+                <div className="flex gap-[10px] items-center mobile:hidden ">
               {/* <Link to="/" className="header-logo">
                       <img
                         className="main-logo h-[50px] mobile:h-[42px]"
