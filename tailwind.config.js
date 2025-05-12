@@ -16,6 +16,7 @@ export default {
          // custom screen
          'min-l':{max:'1199px'},
          'mobile':{max:'767px'},
+         'mobileBanner':{max:'500px'},
        'tablet': { min: '768px', max: '1199px' },
        'specialCase':{min:'1200px' , max:'1210px'}
       },

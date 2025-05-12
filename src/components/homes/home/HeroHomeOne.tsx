@@ -10,8 +10,13 @@ const HeroHomeOne = () => {
       <section className="fix relative ">
         <img
           src="/assets/landing_page/acting.webp"
-          alt="banner_imahe"
-          className="w-[100%]"
+          alt="banner_imahe "
+          className="w-[100%] mobileBanner:hidden"
+        />
+         <img
+          src="/assets/landing_page/amit_behl_mobile.webp"
+          alt="banner_imahe "
+          className="w-[100%] mobileBanner:block hidden"
         />
         <div className="contact-section-2 section-padding p-0 absolute">
   <div className="container">
