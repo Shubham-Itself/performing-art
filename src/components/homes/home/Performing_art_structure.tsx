@@ -160,10 +160,10 @@ const Performing_art_structure = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
     <div className="max-w-7xl mx-auto p-6 space-y-10 text-gray-800 !pt-[100px] !pb-0">
-    <h1 className="text-3xl font-bold text-center">Program Structure</h1>
+    <h1 className="text-3xl font-bold text-center text-[#005BFF]">Program Structure</h1>
     
     <section>
-      <h2 className="text-2xl font-semibold">Performing Arts and Media Management</h2>
+      <h2 className="text-2xl font-semibold mobile:text-[20px]">Performing Arts and Media Management</h2>
      
     </section>
   
