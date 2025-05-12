@@ -19,15 +19,15 @@ export default function Preloader() {
 			{isVisible && (
 				<div id="preloader" className="preloader">
 					<div className="animation-preloader">
-						<div className="edu-preloader-icon">
+						{/* <div className="edu-preloader-icon">
 						
-						</div>
-						<div className="w-64 h-64 mx-auto">
+						</div> */}
+						{/* <div className="w-64 h-64 mx-auto">
      
-    </div>
+    </div> */}
 
 						{/* First Line: INDIAN INSTITUTE */}
-						<div className="txt-loading">
+						<div className="txt-loading mobile:!text-[20px]">
 							{"INDIAN INSTITUTE".split("").map((char, i) => (
 								<span
 									key={`line1-${i}`}
@@ -40,7 +40,7 @@ export default function Preloader() {
 						</div>
 
 						{/* Second Line: OF CREATIVE SKILLS */}
-						<div className="txt-loading mt-2">
+						<div className="txt-loading mt-2 mobile:!text-[20px]">
 							{"OF CREATIVE SKILLS".split("").map((char, i) => (
 								<span
 									key={`line2-${i}`}

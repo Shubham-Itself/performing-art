@@ -44,7 +44,7 @@ const MarqueeOne = ({ style_2 }: any) => {
               </div>
               <Link to="/" className="header-logo">
                       <img
-                        className="main-logo h-[50px] mobile:h-[42px]"
+                        className="main-logo h-[50px] mobile:h-[42px] mobile:w-[200px] object-contain"
                         src="/assets/iics_image/iics_logo_main.webp"
                         alt="logo-img"
                         height="40"

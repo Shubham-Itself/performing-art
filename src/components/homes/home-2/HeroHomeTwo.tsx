@@ -10,7 +10,7 @@ const HeroHomeTwo = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   return (
-    <>
+    <div className="mobile:mt-[50px]">
        <section className="hero-section hero-2 fix mobile:!pt-0 pb-0">
             <div className="container">
                 <div className="row g-4">
@@ -70,7 +70,7 @@ const HeroHomeTwo = () => {
         videoId={"Ml4XCF-JS0k"}
       />
       {/* video modal end */}
-    </>
+    </div>
   );
 };
 
